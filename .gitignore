@@ -1,0 +1,6 @@
+.env
+config/assignment2-412203-eab235a213b3.json
+logs/
+node_modules/
+package-lock.json
+temp/

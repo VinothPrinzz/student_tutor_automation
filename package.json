@@ -1,0 +1,42 @@
+{
+  "name": "student-tutor-bot",
+  "version": "1.0.0",
+  "description": "An automation system that allows students to ask questions via Telegram and get AI-generated answers approved by teachers via Slack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "slack",
+    "education",
+    "automation",
+    "ai",
+    "deepseek",
+    "gemini"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "@slack/web-api": "^6.9.0",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "mongoose": "^7.6.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
