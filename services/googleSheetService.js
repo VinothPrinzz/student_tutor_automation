@@ -20,7 +20,7 @@ class GoogleSheetsService {
     try {
       // Setup authentication using service account
       this.auth = new google.auth.GoogleAuth({
-        keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+        keyFile: "/etc/secrets/google-credentials.json",
         scopes: ["https://www.googleapis.com/auth/spreadsheets"],
       });
 
